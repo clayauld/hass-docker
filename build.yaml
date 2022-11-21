@@ -1,8 +1,5 @@
 image: clayauld/hass-{arch}-homeassistant-base
 shadow_repository: 192.168.6.53:5000
-
-image: homeassistant/{arch}-homeassistant-base
-shadow_repository: ghcr.io/home-assistant
 build_from:
   aarch64: ghcr.io/home-assistant/aarch64-base-python:3.10-alpine3.16
   armhf: ghcr.io/home-assistant/armhf-base-python:3.10-alpine3.16
